@@ -414,7 +414,7 @@ button {
 }
 ul.services-list li a {
   display: block;
-  padding: 16px 18px;
+  padding: 16px 30px 16px 18px;
   transition: all .5s ease;
   position: relative;
   background: #e8eaee;
@@ -424,7 +424,7 @@ ul.services-list li a {
   margin-bottom: 15px;
 }
 ul.services-list li a:before {
-  content: "\f113";
+  content: "\f112";
   position: absolute;
   right: 12px;
   top: 16px;
@@ -1516,7 +1516,7 @@ blockquote p {
 }
 .address-wrap-item .icon-part i {
   text-align: center;
-  color: var(--color-1);
+  color: white;
   border-radius: 100%;
   font-size: 30px;
   position: relative;
@@ -11585,4 +11585,11 @@ body .search-modal .close:hover {
 
 .testi-item-content .item-content span {
   float:  left;
+}
+
+.rs-services-single .col-lg-8.md-mb-50 .services-img {
+  height: 578px;
+}
+.rs-services-single .col-lg-8.md-mb-50 .services-img img {
+  height: 100%;
 }
