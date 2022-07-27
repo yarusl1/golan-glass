@@ -1,0 +1,14 @@
+#nivoSlider .nivo-caption .content-part {
+	text-align: left;
+}
+
+#nivoSlider .nivo-nextNav {
+	display: none;
+}
+#nivoSlider .nivo-prevNav {
+	display: none;
+}
+.rs-contact-info .fi-rr-phone-call {
+	margin-right: 0;
+	margin-left: 6px;
+}
