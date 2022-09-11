@@ -5240,15 +5240,15 @@ body .search-modal .close:hover {
 .rs-contact.contact-style1 .contact-box-item .contact-box .content-text .services-txt a:hover {
   color: var(--color-3);
 }
-.rs-contact.contact-style1 .contact-map {
-  overflow: hidden;
+.rs-contact {
+  background-color: #fdfdfd;
 }
-.rs-contact.contact-style1 .contact-map iframe {
-  height: 600px;
-  float: left;
-  width: 100%;
-  border: none;
+.rs-contact .contact-map {
+  height: 100%;
+  cursor: pointer;
+  background: url('https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=iw&region=IL&markers=color:0x48487f|32.9841297,35.5522971&zoom=16&client=google-presto&signature=lRCXirpZ1LQW0ekfjVSALIHJa7A') no-repeat center center / cover;
 }
+
 .rs-contact.contact-style1.contact-modify1 .contact-section {
   padding: 0 0px 0 35px;
 }
@@ -5741,7 +5741,7 @@ body .search-modal .close:hover {
 }
 .rs-contact.contact-style6 .contact-box {
   padding: 35px 35px 35px 35px;
-  background-color: var(--color-1);
+  background-color: var(--white);
   border-radius: 3px 3px 3px 3px;
   margin: 0 -4px 0 0;
   text-align: center;
