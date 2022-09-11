@@ -9,6 +9,7 @@
   --color-3: #357BD7;/*#0053DB;*/
   --menu-color: #101010;
   --menu-font-color: #cfcfcf;
+  --white: white;
 }
 
 html,
@@ -816,7 +817,7 @@ blockquote p {
 .readon.more {
   background: var(--color-3);
   padding: 17px 23px 17px 23px;
-  color: var(--menu-font-color);
+  color: var(--white);
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -837,7 +838,7 @@ blockquote p {
 }
 .readon.more.submit {
   padding: 15px 31px 15px 31px;
-  color: white;
+  color: var(--white);
   border: none;
 }
 .readon.more.submit:hover {
@@ -1516,7 +1517,7 @@ blockquote p {
 }
 .address-wrap-item .icon-part i {
   text-align: center;
-  color: white;
+  color: var(--white);
   border-radius: 100%;
   font-size: 30px;
   position: relative;
@@ -1645,7 +1646,7 @@ blockquote p {
 .rs-videos .animate-border .popup-border i {
   transition: 0.3s ease all;
   font-size: 30px;
-  color: white;
+  color: var(--white);
   position: relative;
 }
 .rs-videos .animate-border .popup-border:before {
@@ -2265,8 +2266,6 @@ blockquote p {
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li a {
   border-left: 1px solid #514d4d;
-  margin-left: 20px;
-  padding-left: 20px;
   color: #ffffff;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li a:hover {
@@ -2743,7 +2742,7 @@ blockquote p {
   font-size: 14px;
   background: var(--color-3);
   padding: 11px 30px 10px;
-  color: white;
+  color: var(--white);
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
@@ -3952,7 +3951,7 @@ body .search-modal .close:hover {
 }
 .rs-slider.rs-slider-style2 .slider-bottom .more {
   display: inline-block !important;
-  color:  var(--menu-font-color);
+  color:  var(--white);
 }
 .rs-slider.rs-slider-style2 .slider-bottom .more:hover {
   color:  var(--color-1)!important;
@@ -9462,7 +9461,7 @@ body .search-modal .close:hover {
 .rs-testimonial.testimonial-style1 .testi-item-content .slider .slick-arrow.slick-next:before {
   content: "\f115";
   font-size: 18px;
-  color: var(--menu-font-color);
+  color: var(--white);
   margin: 0;
   display: inline-block;
   font-family: flaticon !important;
@@ -9476,7 +9475,7 @@ body .search-modal .close:hover {
 .rs-testimonial.testimonial-style1 .testi-item-content .slider .slick-arrow.slick-prev:before {
   content: "\f114";
   font-size: 18px;
-  color: var(--menu-font-color);
+  color: var(--white);
   margin: 0;
   display: inline-block;
   font-family: flaticon !important;
@@ -10699,7 +10698,7 @@ body .search-modal .close:hover {
   position: relative;
   border: none;
   background: var(--color-3);
-  color: var(--menu-font-color);
+  color: var(--white);
   padding: 16px 35px 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -10981,7 +10980,7 @@ body .search-modal .close:hover {
   font-size: 24px;
   width: 42px;
   border-radius: 0;
-  color: white;
+  color: var(--white);
   line-height: 36px;
   transition: all 0.3s ease 0s;
   background: var(--color-3);
